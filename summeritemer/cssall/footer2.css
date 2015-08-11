@@ -1,0 +1,69 @@
+#footer2{
+	background:#000; 
+	padding-top: 30px;
+}
+#footer2 .logo a{
+	display: block;
+	width: 228px;
+	height: 58px;
+	text-indent:-9999px;
+	background: url(../img/logo-footer-mobile-2x.png) no-repeat;
+	background-size: 228px 58px;
+}
+#footer2 p{
+	float: left;
+	margin-left: 60px;
+	color: white;
+	font-size: bold;
+	font: 15px Georgia, "Times New Roman", serif;
+	line-height: 20px;
+}
+#footer2 p a{
+	color: #a9a9a9;
+	font-weight: normal;
+	font-size: 16px;
+
+}
+a:hover{
+	text-decoration: underline !important;
+}
+#footer2 ul{
+	float:right;
+	padding:0 0 0 25px;
+	border-left: 1px solid #a9a9a9;
+	margin-bottom: 15px;
+}
+#footer2 ul li{
+	float: none;
+	margin: 0 0 14px 0px;
+}
+#footer2 ul li a{
+	color:#a9a9a9;
+	font:  bold 13px Helvetica, Arial, sans-serif;
+}
+#footer_last{
+	background:#333;
+	padding: 12px 0 33px 0;
+}
+#footer_last li{
+	margin-right: 15px;
+	padding-left: 15px;
+	background: url(../img/mrkr-copy-footer.gif) no-repeat;
+	background-position: left center;
+	line-height: 20px;
+}
+.first{
+	padding-left: 0px !important;
+	background:none !important;
+}
+#footer_last li a{
+	color: #a9a9a9;
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+#footer_last p{
+	color: #6c6c6c;
+	font-size: 10px;
+	font-family: Helvetica;
+}

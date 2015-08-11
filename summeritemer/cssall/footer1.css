@@ -1,0 +1,241 @@
+.margin{
+	margin-bottom: 30px;
+}
+.footer_tableBox_body{
+	display: table-cell;
+	position: relative;
+}
+.heading_tab{
+	float: left;
+	width: 143px;
+	border-right: 1px solid #c3c3c3;
+	height: 232px;
+	padding: 30px 0px 30px 10px;
+}
+.heading_tab li{
+	float: none !important;
+	position: relative;
+}
+.heading_tab li a{
+	display: block;
+	padding: 10px 5px 9px 42px;
+	background: url(../img/streamer-sprite.png) no-repeat 0 0;
+	color: #adadad;
+	font-family: Helvetica;
+	font-size: 12px;
+}
+.twitter{
+	background-position: 5px -312px;
+}
+.heading_tab .facebook{
+	background-position: 5px -123px;
+}
+.heading_tab .facebook:hover{
+	background-position: 5px -778px;
+	color: blue;
+}
+.heading_tab_active .twitter{
+	color: white;
+	background-color: #3f3f3f;
+	background-position:5px -312px;
+}
+.heading_tab_active .facebook{
+	color: white;
+	background-color: #3f3f3f;
+	background-position:5px -428px;
+}
+.heading_tab_active span{
+	position: absolute;
+	top: 0px;
+	left: 143px;
+}
+.footer_tableBox_body_itemone li{
+	float: left;
+}
+.footer_tableBox_body_itemone{
+	width: 660px;
+	overflow: hidden;
+	position: relative;
+	height: 292px;
+}
+.footer_tableBox_body_itemone li{
+	width: 180px;
+	padding: 30px 14px 30px 24px;
+	border-right:1px solid #c3c3c3;
+	margin-right: 1px;
+	height: 232px;
+	position: absolute;
+	top: 0px;
+}
+.footer_tableBox_body_itemone p{
+	color: #1e1e1e;
+	font-size:16px;
+	font-family: Georgia; 
+}
+.footer_tableBox_body_itemone p a{
+	color: #3b7ab8;
+	font-weight: normal;
+	font-size: 10px;
+}
+.footer_tableBox_body_itemone p a:hover{
+	text-decoration: underline;
+	color: #2d3754;
+}
+.footer_tableBox_body_itemone .data{
+	margin-bottom: 10px;
+	color: #b5b5b5;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: Georgia;
+	font-size: 10px;
+}
+.controls{
+	position: absolute;
+	display: table-cell;
+	width: 42px;
+	top: -1px;
+	right: -43px;
+	border-right: 1px solid #c3c3c3;
+	padding-top: 40px;
+	height: 252px;
+	border-bottom: 1px solid #c3c3c3;
+	border-top: 1px solid #c3c3c3;
+}
+.controls a{
+	text-indent: -9999px;
+	display: block;
+	width: 32px;
+	height: 32px;
+	background: url(../img/btn-streamer-controls.gif);
+	margin-top: 10px;
+}
+.controls .controls_prev{
+	background-position: 0px 0px;	
+}
+.controls .controls_next{
+	background-position: -31px 0px;
+}
+.controls .controls_prev:hover{
+	background-position: 0px -33px;
+}
+.controls .controls_next:hover{
+	background-position: -31px -32px;
+}
+.relative_div{
+	position: relative;
+}
+.boxDiff{
+	width: 110px;
+}
+.diffbox{
+	width: 1021px !important;
+	margin:0px 14px 30px 121px !important;
+
+}
+.diffBox{
+	margin: 0 0 0 121px !important;
+}
+.footer2_body{
+	border: 1px solid #c3c3c3;
+}
+.col1{
+	width: 458px;
+	border-right: 1px solid #c3c3c3;
+	float: left;
+}
+.col1 form{
+	padding:30px 16px;
+}
+.col1 strong{
+	display: block;
+	margin-bottom: 3px;
+	color: #363636;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 21px;
+	font-family: Helvetica;
+}
+.col1 p{
+	float: left;
+	border: 10px solid #ebebe9;
+}
+.col1 label{
+	display: block;
+	color: #6c6c6c;
+	font-style: italic;
+	font-family: Georgia;
+	font-size: 19px;
+	margin-bottom: 4px;
+}
+#txt{
+	float:left;
+	width: 300px;
+	font-style: italic;
+	height: 30px;
+}
+#sub{
+	float: left;
+	width: 94px;
+	min-height: 34px;
+	background: #4d8cc8;
+	cursor: pointer;
+	color: white;
+	font-weight: bold;
+}
+#sub:hover{
+	background:#313B59;
+}
+.col2{
+	float: left;
+	width: 375px;
+}
+.col2_body{
+	padding:30px 30px 3px;
+}
+.col2_body li{
+	float: none !important;
+}
+.col2_body a:hover{
+	text-decoration: underline !important;
+}
+.col2_body_first{
+	width: 166px;
+	float: left;
+}
+.col2_body ul li a{
+	padding: 3px 0 3px 27px;
+	display: inline-block;
+	font-weight: bold;
+	color: #3b7ab8;
+	font-family: Helvetica;
+	background: url(../img/icon-social-v4.png) no-repeat 0 0;
+}
+.col2_body ul li a:hover{	
+	color:#25252B; 
+}
+.col2_body ul li{
+	margin-bottom: 10px;
+}
+.col2_body ul .twi{
+	background-position: 0px -152px;
+}
+.col2_body ul .you{
+	background-position: 0px -290px;
+}
+.col2_body ul .rss{
+	background-position: 0px -742px;
+}
+.col2_body ul .lin{
+	background-position: 0px -1258px;
+}
+.col2_body ul .ins{
+	background-position: 0px -1603px;
+}
+.col2_body ul .itu{
+	background-position: 0px -427px;
+}
+.col2_body ul .all{
+	background-position: 0px -1427px;
+}
+
+
